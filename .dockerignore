@@ -1,0 +1,15 @@
+# B2: stuff that shouldn't be copied into the image
+venv/
+.venv/
+.git/
+.gitignore
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+tests/
+*.md
+Dockerfile
+docker-compose.yml
+.dockerignore
